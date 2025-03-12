@@ -42,7 +42,6 @@
             this.btn_kaydet = new System.Windows.Forms.Button();
             this.lb_cinsiyet = new System.Windows.Forms.ListBox();
             this.btn_dosyaolustur = new System.Windows.Forms.Button();
-            this.listBox1 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // tb_isim
@@ -180,23 +179,11 @@
             this.btn_dosyaolustur.UseVisualStyleBackColor = true;
             this.btn_dosyaolustur.Click += new System.EventHandler(this.btn_dosyaolustur_Click);
             // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Items.AddRange(new object[] {
-            "kadın",
-            "erkek eril"});
-            this.listBox1.Location = new System.Drawing.Point(413, 51);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(120, 43);
-            this.listBox1.TabIndex = 16;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.btn_dosyaolustur);
             this.Controls.Add(this.lb_cinsiyet);
             this.Controls.Add(this.btn_kaydet);
@@ -234,7 +221,6 @@
         private System.Windows.Forms.Button btn_kaydet;
         private System.Windows.Forms.ListBox lb_cinsiyet;
         private System.Windows.Forms.Button btn_dosyaolustur;
-        private System.Windows.Forms.ListBox listBox1;
     }
 }
 
